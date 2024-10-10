@@ -1,0 +1,19 @@
+print(" ")
+print("Angel Andrey Muñoz Centeno 3W")
+print(" ")
+
+# Funcion para mostrar un saludo
+def saludar(nombre):
+    # Muestra el saludo con el nombre que de el usuario
+    print(f"¡Hola {nombre}!")
+
+# Funcion principal que controla el flujo del programa
+def main():
+    # Pide al usuario que ingrese su nombre
+    nombre = input("Ingresa tu nombre: ")
+    
+    # solicita a la funcion saludar con el nombre ingresado
+    saludar(nombre)
+
+# Llamada a la funcion principal
+main()

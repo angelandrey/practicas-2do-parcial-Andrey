@@ -1,0 +1,25 @@
+print(" ")
+print("Angel Andrey Muñoz Centeno 3W")
+print(" ")
+
+# Funcion para verificar si una direccion de email es valida
+def es_email_valido(email):
+    # Verifica si el email contiene el simbolo '@'
+    if '@' in email:
+        return True
+    else:
+        return False
+
+# Funcion principal que controla el flujo del programa
+def main():
+    # Pide al usuario que ingrese su direccion de email
+    email = input("Ingresa tu direccion de email: ")
+
+    # Llama a la funcion para verificar la validez del email
+    if es_email_valido(email):
+        print("La direccion de email es valida.")
+    else:
+        print("La direccion de email no es valida.")
+
+# Llamada a la funcion principal
+main()

@@ -1,0 +1,27 @@
+print(" ")
+print("Angel Andrey Muñoz Centeno 3W")
+print(" ")
+
+# Funcion para encontrar el mayor de tres numeros
+def mayor_de_tres(num1, num2, num3):
+    # Compara los tres numeros y retorna el mayor
+    if num1 >= num2 and num1 >= num3:
+        return num1
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+
+# Funcion principal que controla el flujo del programa
+def main():
+    # Pide al usuario que ingrese tres numeros
+    numero1 = float(input("Ingresa el primer numero: "))
+    numero2 = float(input("Ingresa el segundo numero: "))
+    numero3 = float(input("Ingresa el tercer numero: "))
+    
+    # Llama a la funcion para encontrar el mayor y muestra el resultado
+    mayor = mayor_de_tres(numero1, numero2, numero3)
+    print(f"El mayor de los tres numeros es: {mayor}")
+
+# Llamada a la funcion principal
+main()

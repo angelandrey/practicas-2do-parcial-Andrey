@@ -1,0 +1,25 @@
+print(" ")
+print("Angel Andrey Muñoz Centeno 3W")
+print(" ")
+
+def my_function():
+    print("Hey amigos!")
+
+# Funcion principal que controla el flujo del programa
+def main():
+    while True:
+        respuesta = input("¿Quieres un saludo? (si/no): ")
+
+        if respuesta.lower() == 'si':
+            my_function()
+        elif respuesta.lower() == 'no':
+            print("Esta bien, Hasta luego.")
+            break
+        else:
+            print("Por favor, responde con 'si' o 'no'.")
+            continue
+        
+       
+
+# Llamada a la funcion principal
+main()

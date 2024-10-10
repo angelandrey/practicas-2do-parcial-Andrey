@@ -1,0 +1,40 @@
+print(" ")
+print("Angel Andrey Muñoz Centeno 3W")
+print(" ")
+
+# Funcion para calcular el total de una factura con IVA
+def calcular_total_factura(cantidad_sin_iva, porcentaje_iva=21):
+    # Calcula el monto del IVA
+    iva = cantidad_sin_iva * (porcentaje_iva / 100)
+    
+    # Calcula el total de la factura sumando la cantidad sin IVA y el IVA
+    total = cantidad_sin_iva + iva
+    
+    # Retorna el total de la factura
+    return total
+
+# Funcion principal que controla el flujo del programa
+def main():
+    # Pide al usuario que ingrese la cantidad sin IVA
+    cantidad_sin_iva = float(input("Ingresa la cantidad sin IVA: "))
+    
+    # Pide al usuario que ingrese el porcentaje de IVA (opcional)
+    porcentaje_iva_input = input("Ingresa el porcentaje de IVA (deja en blanco para 21%): ")
+    
+    # Si el usuario no ingresa un porcentaje, se utiliza el 21%
+    if porcentaje_iva_input.strip() == "":
+        porcentaje_iva = 21
+    else:
+        # Convierte el porcentaje ingresado a un número
+        try:
+            porcentaje_iva = float(porcentaje_iva_input)
+        except ValueError:
+            print("Porcentaje incorrecto. Se aplicara el 21% por default.")
+            porcentaje_iva = 21
+
+    # Llama a la funcion para calcular el total y muestra el resultado
+    total_factura = calcular_total_factura(cantidad_sin_iva, porcentaje_iva)
+    print(f"El total de la factura es: {total_factura:.2f}")
+
+# Llamada a la funcion principal
+main()

@@ -1,0 +1,32 @@
+print(" ")
+print("Angel Andrey Muñoz Centeno 3W")
+print(" ")
+
+# Funcion para verificar si un caracter es una vocal
+def es_vocal(caracter):
+    # Define las vocales en minusculas y mayusculas
+    vocales = 'aeiouAEIOU'
+    
+    # Verifica si el caracter esta en la lista de vocales
+    if caracter in vocales:
+        return True
+    else:
+        return False
+
+# Funcion principal que controla el flujo del programa
+def main():
+    # Pide al usuario que ingrese un caracter
+    caracter = input("Ingresa un caracter: ")
+    
+    # Verifica si se ingreso solo un caracter
+    if len(caracter) != 1:
+        print("Por favor, ingresa solo un caracter.")
+    else:
+        # Llama a la funcion para verificar si es una vocal
+        if es_vocal(caracter):
+            print(f"{caracter} es una vocal.")
+        else:
+            print(f"{caracter} no es una vocal.")
+
+# Llamada a la funcion principal
+main()

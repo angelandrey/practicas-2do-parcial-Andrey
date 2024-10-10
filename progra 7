@@ -1,0 +1,30 @@
+print(" ")
+print("Angel Andrey Muñoz Centeno 3W")
+print(" ")
+
+# Funcion para calcular la longitud de la ultima palabra en un string
+def longitud_ultima_palabra(texto):
+    # Separa el texto en palabras utilizando espacios como delimitadores
+    palabras = texto.split()
+    
+    # Verifica si hay palabras en el texto
+    if palabras:
+        # Retorna la longitud de la ultima palabra
+        return len(palabras[-1])
+    else:
+        # Si no hay palabras, retorna 0
+        return 0
+
+# Funcion principal que controla el flujo del programa
+def main():
+    # Pide al usuario que ingrese un texto
+    texto = input("Ingresa un texto: ")
+    
+    # Llama a la funcion para calcular la longitud de la ultima palabra
+    longitud = longitud_ultima_palabra(texto)
+    
+    # Muestra el resultado
+    print(f"La longitud de la ultima palabra es: {longitud}")
+
+# Llamada a la funcion principal
+main()

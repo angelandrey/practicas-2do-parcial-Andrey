@@ -1,0 +1,35 @@
+print(" ")
+print("Angel Andrey Muñoz Centeno 3W")
+print(" ")
+
+# Funcion para sumar todos los numeros en una lista
+def sum(numeros):
+    total = 0
+    # Recorre la lista y acumula la suma
+    for num in numeros:
+        total += num
+    return total
+
+# Funcion para multiplicar todos los numeros en una lista
+def multip(numeros):
+    resultado = 1
+    # Recorre la lista y acumula el producto
+    for num in numeros:
+        resultado *= num
+    return resultado
+
+# Funcion principal que controla el flujo del programa
+def main():
+    # Ejemplo de lista de numeros
+    lista_numeros = [1, 2, 3, 4]
+    
+    # Llama a la funcion sum y muestra el resultado
+    suma_total = sum(lista_numeros)
+    print(f"La suma de {lista_numeros} es: {suma_total}")
+    
+    # Llama a la funcion multip y muestra el resultado
+    producto_total = multip(lista_numeros)
+    print(f"La multiplicacion de {lista_numeros} es: {producto_total}")
+
+# Llamada a la funcion principal
+main()

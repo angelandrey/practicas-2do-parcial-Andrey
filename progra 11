@@ -1,0 +1,35 @@
+print(" ")
+print("Angel Andrey Muñoz Centeno 3W")
+print(" ")
+
+import math
+
+# Funcion para calcular la distancia dirigida entre dos puntos
+def distancia_dirigida(x1, y1, x2, y2):
+    # Calcula la diferencia en las coordenadas x e y
+    diferencia_x = x2 - x1
+    diferencia_y = y2 - y1
+    
+    # Calcula la distancia dirigida usando el teorema de Pitagoras
+    distancia = math.sqrt(diferencia_x**2 + diferencia_y**2)
+    
+    return distancia
+
+# Funcion principal que controla el flujo del programa
+def main():
+    # Pide al usuario que ingrese las coordenadas del primer punto
+    x1 = float(input("Ingresa la coordenada x del primer punto: "))
+    y1 = float(input("Ingresa la coordenada y del primer punto: "))
+    
+    # Pide al usuario que ingrese las coordenadas del segundo punto
+    x2 = float(input("Ingresa la coordenada x del segundo punto: "))
+    y2 = float(input("Ingresa la coordenada y del segundo punto: "))
+    
+    # Llama a la funcion para calcular la distancia dirigida
+    distancia = distancia_dirigida(x1, y1, x2, y2)
+    
+    # Muestra el resultado
+    print(f"La distancia dirigida entre los puntos ({x1}, {y1}) y ({x2}, {y2}) es: {distancia:.2f}")
+
+# Llamada a la funcion principal
+main()
