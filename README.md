@@ -25,23 +25,24 @@
 ![image](https://github.com/user-attachments/assets/db01c14d-57b3-4f6c-8ade-719b6025c571)
 ![image](https://github.com/user-attachments/assets/d76dde24-0b1a-4fc9-9695-dccba795d6be)
 # Ejecucion
-![image](https://github.com/user-attachments/assets/c7b2f9c1-a9c2-4110-8b38-5004ed550711)
+![image](https://github.com/user-attachments/assets/c2c4c21a-ff26-43b1-9632-aad6d2849e3b)
 
 # 6- Capturar dirección de email. Desplegar mensaje si la dirección es válida o no, siendo que una función lo revisar por tener la @ solo así es valida
 ![image](https://github.com/user-attachments/assets/51a3e2ec-4959-451a-a6bd-1435defce5d5)
 ![image](https://github.com/user-attachments/assets/97fc5d72-8889-4bbc-ae37-75862025a70c)
 # Ejecion
-![image](https://github.com/user-attachments/assets/f1440e61-5a38-4972-82f6-ae0e2f137292)
+![image](https://github.com/user-attachments/assets/e036298b-bf85-42b1-9a23-839c0509cda6)
 
 # 7- Función que de un string, regrese la longitud de la última palabra. Las palabras tienen separación por uno o más espacios.
 ![image](https://github.com/user-attachments/assets/b6b82556-cb43-4d34-9a1d-a665cfee3402)
 ![image](https://github.com/user-attachments/assets/121fffa2-e5d0-4af6-8fcb-a4871bf45ec8)
 # Ejecucion 
-![image](https://github.com/user-attachments/assets/d6b0cd96-d666-4d9e-a2bd-056846848371)
+![image](https://github.com/user-attachments/assets/18afe9d7-0419-4093-b548-efca32f53ea1)
 
 # 8- Definir una función (), que tome tres números como argumentos y devuelva el mayor de ellos.
 ![image](https://github.com/user-attachments/assets/6d8eec52-3b97-44b0-8b15-b2c7fe234bee)
 # Ejecucion
+![image](https://github.com/user-attachments/assets/7e6cf1be-49bf-4e5f-a7cb-1daf491c84ad)
 
 # Practica 9
 ![image](https://github.com/user-attachments/assets/458006f9-0ecc-4abd-ad8d-d46ff9ccee0b)
@@ -53,8 +54,10 @@
 ![image](https://github.com/user-attachments/assets/8ba5dc95-7527-40a8-aea0-1e656bb32af0)
 ![image](https://github.com/user-attachments/assets/7697d126-a04b-4cf1-b1be-b16eb8e577cb)
 # Ejecucion
+![image](https://github.com/user-attachments/assets/435fc053-6e2d-4be5-9369-b30fd8fd2cf6)
 
 # 11-  Que saque la distancia dirigida entre dos puntos
 ![image](https://github.com/user-attachments/assets/030a8760-12f7-4f4d-a4e4-6c5538911cda)
 ![image](https://github.com/user-attachments/assets/22952a99-5438-4ad7-92ec-ab205fe553ff)
 # Ejecucion
+![image](https://github.com/user-attachments/assets/baf407cc-8eb8-4463-af2b-2e54842c3df5)
