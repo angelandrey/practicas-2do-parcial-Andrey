@@ -11,6 +11,10 @@
 ![image](https://github.com/user-attachments/assets/17755f83-1d78-4493-ba92-124333a567c5)
 
 # 3- Dar un entero positivo y resuelva su factorial.
+![image](https://github.com/user-attachments/assets/92e99c55-5b26-4ac5-b28b-6b482063c385)
+# Ejecucion
+![image](https://github.com/user-attachments/assets/7301f6e1-c251-49e0-8336-7f63f8f99173)
+
 
 
 
